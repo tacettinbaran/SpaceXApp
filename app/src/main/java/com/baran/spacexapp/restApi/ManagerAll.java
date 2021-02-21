@@ -28,9 +28,5 @@ public class ManagerAll extends BaseManager {
         return call;
     }
 
-    public Call<List<LaunchesModel>> getLaunches() {
-        Call<List<LaunchesModel>> call = getRestApiClient().getLaunches();
-        return call;
-    }
 }
 

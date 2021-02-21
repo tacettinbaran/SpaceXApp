@@ -21,8 +21,4 @@ public interface RestApi {
     @GET("rockets/{rocket_id}")
     Call<RocketModel> getRocket(@Path("rocket_id") String rocket_id);
 
-
-    @GET("launches")
-    Call<List<LaunchesModel>> getLaunches();
-
 }
