@@ -18,8 +18,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        View view = findViewById(R.layout.activity_splash);
-
         YoYo.with(Techniques.ZoomInDown)
                 .duration(2000)
                 .repeat(0)
